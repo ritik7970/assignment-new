@@ -43,7 +43,7 @@ const DashboardPage = () => {
   {/* Maintenance Calendar Section */}
   <div className="bg-white p-4 rounded shadow">
     <h2 className="text-xl font-semibold mb-2">Maintenance Calendar</h2>
-    <MaintenanceCalendar />
+    <MaintenanceCalendar role="admin"/>
   </div>
    <div className="bg-white p-4 rounded shadow space-y-4">
     <h2 className="text-2xl font-semibold">Admin Controls</h2>
@@ -91,7 +91,7 @@ const DashboardPage = () => {
   {/* Maintenance Calendar Section */}
   <div className="bg-white p-4 rounded shadow">
     <h2 className="text-xl font-semibold mb-4">Maintenance Calendar</h2>
-    <MaintenanceCalendar />
+    <MaintenanceCalendar role="inspector"/>
   </div>
 
   {/* Job List Section */}
@@ -109,7 +109,7 @@ const DashboardPage = () => {
   {/* Maintenance Calendar Section */}
   <div className="bg-white p-4 rounded shadow">
     <h2 className="text-xl font-semibold mb-4">Maintenance Calendar</h2>
-    <MaintenanceCalendar />
+    <MaintenanceCalendar role="engineer"/>
   </div>
 
   {/* Job List Section */}
