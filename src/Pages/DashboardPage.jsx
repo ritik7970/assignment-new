@@ -3,6 +3,7 @@ import NotificationCenter from "../Components/Notifications/NotificationCenter";
 import { useAuth } from "../contexts/AuthContext";
 import KPIDashboard from "../Components/KPIs/KPIDashboard";
 import { useNavigate } from "react-router-dom";
+import JobList2 from "../Components/Jobs/JobList2";
 
 import { useState } from "react";
 
