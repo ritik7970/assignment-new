@@ -1,12 +1,44 @@
-# React + Vite
+# 🚢 Ship Maintenance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based dashboard for managing maintenance jobs for ships, including job creation, filtering, status updates, and calendar-based scheduling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Features
 
-## Expanding the ESLint configuration
+- Create, view, and manage maintenance jobs.
+- Filter jobs by ship, priority, status.
+- Role-based views for Admin, Engineer, and Inspector.
+- Status update functionality for Engineers.
+- Calendar view for scheduled jobs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Live Demo
+
+Deployed on Vercel: https://assignment-topaz-theta-73.vercel.app
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **State Management:** React Context API
+- **Calendar:** `react-calendar`
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (>=14.x)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/ritik7970/assignment-new.git
+npm install
+npm run dev
