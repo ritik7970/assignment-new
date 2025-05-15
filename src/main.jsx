@@ -6,12 +6,21 @@ import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 import { initializeMockData } from "./utils/localStorageUtils";
 import { ShipsProvider } from "./contexts/ShipsContext";
+import { ComponentsProvider } from "./contexts/ComponentsContext";
+import { JobsProvider } from './contexts/JobsContext.jsx';
+import { NotificationProvider } from './contexts/NotificationContext.jsx';
 initializeMockData();
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <AuthProvider>
       <ShipsProvider>
-        <App />
+        <ComponentsProvider>
+           <JobsProvider>
+            <NotificationProvider>
+                <App />
+            </NotificationProvider>
+          </JobsProvider>
+        </ComponentsProvider>
       </ShipsProvider>
     </AuthProvider>
   </BrowserRouter>
