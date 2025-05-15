@@ -28,14 +28,6 @@ Deployed on Vercel: https://assignment-topaz-theta-73.vercel.app
 - **Deployment:** Vercel
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (>=14.x)
-- npm or yarn
-
 ### Installation
 
 ```bash
